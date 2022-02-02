@@ -22,11 +22,16 @@ ENV NODE_ENV production
 # Claire: using custom next.config.js:
 COPY --from=builder /app/next.config.js .
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/.next ./.next
+#COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/package.json .
 COPY --from=builder /app/.yarn ./.yarn
 
 RUN yarn install --production
+# NEw line
+RUN yarn add next@latest
+WORKDIR /app
+COPY ./next.config.js .
+COPY --from=builder /app/next.config.js .
 # Automatically leverage output traces to reduce image size 
 #COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 #COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
