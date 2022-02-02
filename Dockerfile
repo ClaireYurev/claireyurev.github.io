@@ -2,7 +2,7 @@ FROM node:16-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json yarn.lock next.config.js ./
-RUN yarn install --frozen-lockfile
+RUN yarn install
 
 # Rebuild source code only when needed
 FROM node:16-alpine AS builder
@@ -20,7 +20,8 @@ ENV NODE_ENV production
 COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/node_modules ./node_modules
+# Below doesn't exist in this app anymore 
+#COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
 # COPY --from=builder /app/.yarn ./.yarn
 
