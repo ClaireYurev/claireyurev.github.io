@@ -35,8 +35,8 @@
     "image": "https://imgur.com/YhhwYmb.gif",
     "description": "Currently under development in C++ within Unreal Engine, and coming soon for iOS and Android: open-world unicorn runner ✨",
     "tags": ["next", "css-modules", "redux", "react-query"],
-    "source_code_gh": "https://github.com/ClaireYurev/unicorn-runner",
-    "source_code_bb": "https://bitbucket.org/claireyurev/unicorn-runner",
+    "source_code_gh": "https://github.com/ClaireYurev/runner",
+    "source_code_bb": "https://bitbucket.org/claireyurev/runner",
     "demo": "https://i.imgur.com/FG2Th3F.jpg"
   }
 ]
