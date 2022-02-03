@@ -32,7 +32,7 @@ const explorerItems = [
   },
   {
     name: 'Resume.pdf',
-    path: 'https://claireyurev.com/public/Claire_Yurev_-_Resume.pdf',
+    path: '/Claire_Yurev_-_Resume.pdf',
     icon: '6_pdf_icon.svg',
   },
   {

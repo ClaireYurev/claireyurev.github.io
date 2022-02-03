@@ -20,7 +20,7 @@ export default function HomePage() {
             <Link href="/projects">
               <button className={styles.button}>View Projects</button>
             </Link>
-            <Link href="https://claireyurev.com/public/Claire_Yurev_-_Resume.pdf">
+            <Link href="/Claire_Yurev_-_Resume.pdf">
               <button className={styles.outlined}>Download Resume</button>
             </Link>
           </div>
