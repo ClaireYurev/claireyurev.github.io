@@ -8,7 +8,7 @@ RUN npm install --frozen-lockfile
 FROM node:16-alpine AS builder
 WORKDIR /app
 COPY . .
-COPY --from=deps /app/node_modules ./app/node_modules
+COPY --from=deps /app/node_modules ./node_modules
 RUN yarn build
 
 # Production image, copy all the files and run next
