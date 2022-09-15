@@ -48,4 +48,4 @@ ENV NEXT_TELEMETRY_DISABLED 1
 
 # CMD ["yarn", "start"]
 
-CMD ["npm", "run", "build" "&&", "yarn", "start"]
+CMD ["yarn", "build" "&&", "yarn", "start"]
