@@ -39,11 +39,13 @@ RUN chown -R nextjs:nodejs /app/.next
 RUN npm install react
 RUN npm install react-dom
 RUN npx browserslist@latest --update-db
-RUN npm run build
+#RUN npm run build
 USER nextjs
 
 EXPOSE 8080
 ENV PORT 8080
 ENV NEXT_TELEMETRY_DISABLED 1
 
-CMD ["yarn", "start"]
+# CMD ["yarn", "start"]
+
+CMD ["npm", "run", "build" "&&", "yarn", "start"]
