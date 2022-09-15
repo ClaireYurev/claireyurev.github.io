@@ -30,6 +30,9 @@ RUN yarn install --production
 RUN addgroup -g 1001 -S nodejs
 RUN adduser -S nextjs -u 1001
 RUN chown -R nextjs:nodejs /.next
+RUN npm install react
+RUN npm install react-dom
+RUN npx browserslist@latest --update-db
 USER nextjs
 
 EXPOSE 8080
