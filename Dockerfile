@@ -16,13 +16,19 @@ FROM node:16-alpine AS runner
 WORKDIR /app
 ENV NODE_ENV production
 
-# Claire: using custom next.config.js:
+# Claire: using custom next.config.js
 COPY --from=builder /app/next.config.js ./next.config.js
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
-# Below doesn't exist in this app anymore 
+# Below doesn't exist in this app anymore
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
+# The missing pieces
+COPY --from=builder /app/about ./about
+COPY --from=builder /app/components ./components
+COPY --from=builder /app/pages ./pages
+COPY --from=builder /app/styles ./styles
+
 # COPY --from=builder /app/.yarn ./.yarn
 
 RUN yarn install --production
