@@ -33,6 +33,7 @@ RUN chown -R nextjs:nodejs /app/.next
 RUN npm install react
 RUN npm install react-dom
 RUN npx browserslist@latest --update-db
+RUN npm run build
 USER nextjs
 
 EXPOSE 8080
