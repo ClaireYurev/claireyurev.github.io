@@ -22,7 +22,7 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 # Below doesn't exist in this app anymore 
 COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /package.json ./package.json
+COPY --from=builder /app/package.json ./package.json
 # COPY --from=builder /app/.yarn ./.yarn
 
 RUN yarn install --production
