@@ -1,28 +1,28 @@
-FROM node:16-alpine AS deps
+FROM node:16-alpine AS build
 RUN apk add --no-cache libc6-compat
-WORKDIR /
-COPY package.json yarn.lock next.config.js ./
-RUN yarn install
+WORKDIR /app
+COPY package*.json yarn.lock next.config.js ./
+RUN npm install --frozen-lockfile
 
 # Rebuild source code only when needed
 FROM node:16-alpine AS builder
-WORKDIR /
+WORKDIR /app
 COPY . .
-COPY --from=deps /node_modules ./node_modules
+COPY --from=deps /app/node_modules ./app/node_modules
 RUN yarn build
 
 # Production image, copy all the files and run next
 FROM node:16-alpine AS runner
-WORKDIR /
+WORKDIR /app
 ENV NODE_ENV production
 
 # Claire: using custom next.config.js:
-COPY --from=builder /next.config.js ./
-COPY --from=builder /public ./public
-COPY --from=builder /.next ./.next
+COPY --from=builder /app/next.config.js ./next.config.js
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next ./.next
 # Below doesn't exist in this app anymore 
-#COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /package.json .
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /package.json ./package.json
 # COPY --from=builder /app/.yarn ./.yarn
 
 RUN yarn install --production
