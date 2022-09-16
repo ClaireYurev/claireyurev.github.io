@@ -7,4 +7,7 @@ module.exports = {
       'i.imgur.com',
     ],
   },
+  experimental: {
+    outputStandalone: true,
+  },
 };
