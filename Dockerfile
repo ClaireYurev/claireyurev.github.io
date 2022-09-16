@@ -1,12 +1,14 @@
 FROM node:lts as dependencies
 WORKDIR /claireyurev
 COPY package*.json yarn.lock next.config.js ./
+RUN npm install -g yarn
 RUN yarn install --frozen-lockfile
 
 FROM node:lts as builder
 WORKDIR /claireyurev
 COPY . .
 COPY --from=dependencies /claireyurev/node_modules ./node_modules
+RUN npm install -g yarn
 RUN yarn build
 
 FROM node:lts as runner
@@ -26,6 +28,7 @@ COPY --from=builder /claireyurev/next.config.js ./next.config.js
 RUN addgroup -g 1001 -S nodejs
 RUN adduser -S nextjs -u 1001
 RUN chown -R nextjs:nodejs /claireyurev/.next
+RUN npm install -g yarn
 USER nextjs
 
 EXPOSE 8080
