@@ -36,9 +36,9 @@ const Bottombar = () => {
         >
         <div className={styles.greysection}>
 
-          <p>Made with </p> &nbsp;&nbsp; 
-          <p>❤</p> &nbsp;&nbsp;     
-          <p>in California</p> &nbsp;&nbsp;   
+          <p>Make something people want  </p> &nbsp;&nbsp; 
+          <p>🆈</p> &nbsp;&nbsp;     
+          <p>  Do things that don't scale</p> &nbsp;&nbsp;   
           <CheckIcon className={styles.icon} />
           <p>2022</p>
         </div>
