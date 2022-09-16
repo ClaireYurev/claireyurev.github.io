@@ -714,23 +714,18 @@ const Bottombar = ()=>{
                         className: (Bottombar_module_default()).greysection,
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Made with "
+                                children: "Make something people want  "
                             }),
                             " \xa0\xa0",
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "❤"
+                                style: {
+                                    color: "orange"
+                                },
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("big", {
+                                    children: "  \uD83C\uDD88"
+                                })
                             }),
-                            " \xa0\xa0",
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "in California"
-                            }),
-                            " \xa0\xa0",
-                            /*#__PURE__*/ jsx_runtime_.jsx(icons_CheckIcon, {
-                                className: (Bottombar_module_default()).icon
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "2022"
-                            })
+                            " \xa0\xa0"
                         ]
                     })
                 })

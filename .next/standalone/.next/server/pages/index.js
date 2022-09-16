@@ -122,7 +122,7 @@ function HomePage() {
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("h6", {
                                 className: (HomePage_module_default()).bio,
-                                children: "Software Engineer"
+                                children: "tech lead, co-founder @ cleanly.so"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 href: "/projects",

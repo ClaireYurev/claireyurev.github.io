@@ -37,12 +37,13 @@
 .greysection {
   color: rgba(226, 226, 226, 0.596);
   display: flex;
-  margin-right: 0.5rem;
   height: 24px;
   align-items: center;
   padding: 0 0.2rem;
   cursor: pointer;
   font-family: 'Source Sans Pro', sans-serif;
+  
+  line-height: 120%;
 }
 
 .section:hover {

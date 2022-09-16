@@ -1,13 +1,13 @@
 {
+  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/api/contact": "pages/api/contact.js",
   "/api/projects": "pages/api/projects.js",
-  "/_app": "pages/_app.js",
-  "/contact": "pages/contact.js",
-  "/settings": "pages/settings.js",
-  "/_document": "pages/_document.js",
   "/projects": "pages/projects.js",
+  "/settings": "pages/settings.js",
   "/": "pages/index.js",
+  "/_document": "pages/_document.js",
   "/about": "pages/about.js",
+  "/contact": "pages/contact.js",
   "/404": "pages/404.html"
 }

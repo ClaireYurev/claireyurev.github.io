@@ -1,4 +1,5 @@
 module.exports = {
+  output: 'standalone',
   images: {
     domains: [
       'res.cloudinary.com',
@@ -6,8 +7,5 @@ module.exports = {
       'imgur.com',
       'i.imgur.com',
     ],
-  },
-  experimental: {
-    outputStandalone: true,
   },
 };

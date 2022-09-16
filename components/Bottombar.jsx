@@ -35,12 +35,9 @@ const Bottombar = () => {
           className={styles.section}
         >
         <div className={styles.greysection}>
-
+          {/*<CheckIcon className={styles.icon} />*/}
           <p>Make something people want  </p> &nbsp;&nbsp; 
-          <p>🆈</p> &nbsp;&nbsp;     
-          <p>  Do things that don't scale</p> &nbsp;&nbsp;   
-          <CheckIcon className={styles.icon} />
-          <p>2022</p>
+          <p style={{ color: 'orange' }}><big>  🆈</big></p> &nbsp;&nbsp;       
         </div>
         </a>
       </div>
