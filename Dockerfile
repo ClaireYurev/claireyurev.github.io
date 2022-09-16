@@ -12,7 +12,6 @@ RUN yarn build
 FROM node:lts as runner
 WORKDIR /claireyurev
 ENV NODE_ENV production
-# If you are using a custom next.config.js file, uncomment this line.
 
 COPY --from=builder /claireyurev/.next ./.next
 COPY --from=builder /claireyurev/about ./about
@@ -23,6 +22,11 @@ COPY --from=builder /claireyurev/public ./public
 COPY --from=builder /claireyurev/styles ./styles
 COPY --from=builder /claireyurev/package.json ./package.json
 COPY --from=builder /claireyurev/next.config.js ./next.config.js
+
+RUN addgroup -g 1001 -S nodejs
+RUN adduser -S nextjs -u 1001
+RUN chown -R nextjs:nodejs /claireyurev/.next
+USER nextjs
 
 EXPOSE 8080
 CMD ["yarn", "start"]
