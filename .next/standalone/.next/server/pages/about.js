@@ -36,10 +36,10 @@ const AboutPage = ()=>{
                 children: "✔️ Experienced Software Engineer with a track record of working in fintech, healthcare and services industry."
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "☕️ Languages: Python, Java, R, TypeScript, JavaScript, C#, C++, Go, PHP, SQL, MATLAB."
+                children: "☕️ Languages: Java, Python, Dart, C++, TypeScript, JavaScript, C#, Go, PHP, SQL, MATLAB."
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "\uD83D\uDCBB Frameworks & Databases: React, NodeJS, Tkinter, SciKit, TensorFlow, NumPy, Django, MySQL, PostgreSQL, NoSQL."
+                children: "\uD83D\uDCBB Frameworks & Databases: Flutter, React, NodeJS, Tkinter, SciKit, TensorFlow, NumPy, Django, MySQL, PostgreSQL, NoSQL."
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 children: "\uD83D\uDD28 Tools: Git, Scrum Agile, REST, JSON, YAML, Ansile, AWS, GCP, Kubernetes, Docker, Jenkins, Jupyter, Shell Scripting."
@@ -89,7 +89,7 @@ const AboutPage = ()=>{
                 children: "\uD83C\uDF1F We stand on the shoulders of giants!"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "\uD83C\uDF0E Deployed under MIT license."
+                children: "\uD83C\uDF0E Deployed with MIT license."
             })
         ]
     });

@@ -8,8 +8,8 @@ const AboutPage = () => {
       <br></br>
       <p>📚 Curious learner with a passion for experimenting with new ideas and technologies.</p>
       <p>✔️ Experienced Software Engineer with a track record of working in fintech, healthcare and services industry.</p>
-      <p>☕️ Languages: Python, Java, R, TypeScript, JavaScript, C#, C++, Go, PHP, SQL, MATLAB.</p>
-      <p>💻 Frameworks & Databases: React, NodeJS, Tkinter, SciKit, TensorFlow, NumPy, Django, MySQL, PostgreSQL, NoSQL.</p>
+      <p>☕️ Languages: Java, Python, Dart, C++, TypeScript, JavaScript, C#, Go, PHP, SQL, MATLAB.</p>
+      <p>💻 Frameworks & Databases: Flutter, React, NodeJS, Tkinter, SciKit, TensorFlow, NumPy, Django, MySQL, PostgreSQL, NoSQL.</p>
       <p>🔨 Tools: Git, Scrum Agile, REST, JSON, YAML, Ansile, AWS, GCP, Kubernetes, Docker, Jenkins, Jupyter, Shell Scripting.</p>
 
       <br></br>
@@ -35,7 +35,7 @@ const AboutPage = () => {
       <p>💎 Nitin (github.com/itsnitinr) is a brilliant developer and this website would not have been what it is without him!</p>
       <p>🌿 Massive gratitude to Vivek Patel (github.com/vivek9patel) for the inspiration with his Ubuntu portal.</p>
       <p>🌟 We stand on the shoulders of giants!</p>
-      <p>🌎 Deployed under MIT license.</p>
+      <p>🌎 Deployed with MIT license.</p>
 
          
     
