@@ -25,12 +25,5 @@ COPY --from=builder /claireyurev/styles ./styles
 COPY --from=builder /claireyurev/package.json ./package.json
 COPY --from=builder /claireyurev/next.config.js ./next.config.js
 
-# RUN addgroup --system --gid 1001 nodejs
-
-# RUN adduser nextjs --system --uid 1001 --ingroup nodejs
-# RUN chown -R nextjs:nodejs /claireyurev/.next
-
-# USER nextjs
-
 EXPOSE 8080
 CMD ["yarn", "start"]
