@@ -25,4 +25,4 @@ COPY --from=builder /claireyurev/package.json ./package.json
 COPY --from=builder /claireyurev/next.config.js ./next.config.js
 
 EXPOSE 8080
-CMD ["npm", "run", "start"]
+CMD ["yarn", "start"]
