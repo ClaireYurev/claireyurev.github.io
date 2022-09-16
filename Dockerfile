@@ -25,8 +25,9 @@ COPY --from=builder /claireyurev/styles ./styles
 COPY --from=builder /claireyurev/package.json ./package.json
 COPY --from=builder /claireyurev/next.config.js ./next.config.js
 
-RUN addgroup -g 1001 -S nodejs
-RUN adduser -S nextjs -u 1001
+RUN addgroup --system --gid 1001 nodejs
+# RUN adduser -S nextjs -u 1001
+RUN adduser nextjs --system --uid 1001 --ingroup nodejs
 RUN chown -R nextjs:nodejs /claireyurev/.next
 RUN npm install -g yarn --force
 USER nextjs
