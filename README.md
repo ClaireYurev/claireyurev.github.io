@@ -4,4 +4,4 @@ Primary
 # mirrors
 bitbucket.org/claireyurev/claireyurev.github.io
 
-production:
+production: test
