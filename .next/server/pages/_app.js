@@ -170,7 +170,7 @@ const Titlebar = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                 className: (Titlebar_module_default()).title,
-                children: "Claire Yaroslav Yurev - Visual Studio Code"
+                children: "Claire  Yurev - Visual Studio Code"
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: (Titlebar_module_default()).windowButtons,
@@ -908,11 +908,11 @@ const CustomHead = ({ title  })=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                 name: "description",
-                content: "Claire Yaroslav Yurev is a Software Engineer and Data Scientist currently working in California."
+                content: "Claire is a Software Engineer."
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                 name: "keywords",
-                content: "claire y. yurev, claire yaroslav yurev, claire, yaroslav, yurev, software engineer, software developer, data scientist, claire software engineer, portfolio, portfolio project, full stack, vscode portfolio, vscode website, vscode browser"
+                content: "claire y. yurev, claire yurev, claire, yaroslav, yurev, software engineer, software developer, data scientist, claire software engineer, portfolio, portfolio project, full stack, vscode portfolio, vscode website, vscode browser"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                 property: "og:title",

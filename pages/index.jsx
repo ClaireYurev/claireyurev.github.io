@@ -15,14 +15,14 @@ export default function HomePage() {
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Claire Y. Yurev</h1>
+            <h1 className={styles.name}>Claire Y.</h1>
             <h6 className={styles.bio}>Software Engineer</h6>
             <Link href="/projects">
               <button className={styles.button}>View Projects</button>
             </Link>
-            <Link href="/Claire_Y._Yurev_-_Resume.pdf">
+            {/*<Link href="/Claire_Y._Yurev_-_Resume.pdf">
               <button className={styles.outlined}>Download Resume</button>
-            </Link>
+            </Link>*/} 
           </div>
           {/* <Illustration className={styles.illustration} />*/} 
         </div>
