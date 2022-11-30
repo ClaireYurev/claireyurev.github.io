@@ -15,11 +15,11 @@ const explorerItems = [
     path: '/projects',
     icon: '2_javascript_icon.svg',
   },
-  {
+  /*{
     name: 'LinkedIn.ts',
     path: 'https://www.linkedin.com/in/claireyurev/',
     icon: '3_typescript_icon.svg',
-  },
+  },*/
   {
     name: 'GitHub.md',
     path: 'https://github.com/claireyurev',

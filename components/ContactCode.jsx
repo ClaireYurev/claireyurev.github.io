@@ -6,11 +6,11 @@ const contactItems = [
     link: 'claireyurev',
     href: 'https://github.com/claireyurev',
   },
-  {
+  /*{
     social: 'LinkedIn',
     link: 'claireyurev',
     href: 'https://www.linkedin.com/in/claireyurev',
-  },
+  },*/
   {
     social: 'BitBucket',
     link: 'claireyurev',
