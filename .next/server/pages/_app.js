@@ -349,7 +349,7 @@ const sidebarTopItems = [
     },
     {
         Icon: icons_PencilIcon,
-        path: "https://www.linkedin.com/in/claireyurev/"
+        path: "https://www .linkedin.com//"
     },
     {
         Icon: icons_MailIcon,
@@ -444,7 +444,7 @@ const explorerItems = [
     },
     {
         name: "LinkedIn.ts",
-        path: "https://www.linkedin.com/in/claireyurev/",
+        path: "https://www .linkedin.com//",
         icon: "3_typescript_icon.svg"
     },
     {
@@ -821,7 +821,7 @@ const Tabsbar = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx(components_Tab, {
                 icon: "/3_typescript_icon.svg",
                 filename: "LinkedIn.ts",
-                path: "https://www.linkedin.com/in/claireyurev/"
+                path: "https://www .linkedin.com//"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(components_Tab, {
                 icon: "/4_github_icon.svg",

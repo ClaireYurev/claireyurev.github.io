@@ -17,7 +17,7 @@ const explorerItems = [
   },
   /*{
     name: 'LinkedIn.ts',
-    path: 'https://www.linkedin.com/in/claireyurev/',
+    path: 'https://www .linkedin.com//',
     icon: '3_typescript_icon.svg',
   },*/
   {

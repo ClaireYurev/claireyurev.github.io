@@ -24,7 +24,7 @@ const sidebarTopItems = [
   },
   {
     Icon: PencilIcon,
-    path: 'https://www.linkedin.com/in/claireyurev/',
+    path: 'https://www .linkedin.com//',
   },
   {
     Icon: MailIcon,

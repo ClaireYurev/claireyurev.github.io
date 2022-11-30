@@ -63,7 +63,7 @@ const contactItems = [
     {
         social: "LinkedIn",
         link: "claireyurev",
-        href: "https://www.linkedin.com/in/claireyurev"
+        href: "https://www .linkedin.com/"
     },
     {
         social: "BitBucket",
