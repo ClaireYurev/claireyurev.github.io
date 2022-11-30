@@ -13,7 +13,7 @@
     "id": 2,
     "name": "Cleanly.so",
     "image": "https://imgur.com/KZCxCzE.jpg",
-    "description": "No longer a project – this is now a corporation where I work full-time. Cleanly is an iOS, Android, and Web app that washes your car at your place: home, work - wherever you are. Cleanly is the DoorDash of mobile car washes.",
+    "description": "Cleanly is an iOS, Android, and Web app that washes your car at your place: home, work - wherever you are. Cleanly is the DoorDash of mobile car washes.",
     "tags": ["react", "node", "mongodb", "redux", "material-ui"],
     "source_code_gh": "https://github.com/ClaireYurev/cleanly",
     "source_code_bb": "https://bitbucket.org/claireyurev/cleanly",  
