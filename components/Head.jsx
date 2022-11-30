@@ -6,16 +6,16 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Claire Yaroslav Yurev is a Software Engineer and Data Scientist currently working in California."
+        content="Claire is a Software Engineer."
       />
       <meta
         name="keywords"
-        content="claire y. yurev, claire yaroslav yurev, claire, yaroslav, yurev, software engineer, software developer, data scientist, claire software engineer, portfolio, portfolio project, full stack, vscode portfolio, vscode website, vscode browser"
+        content="claire, software engineer, software developer, data scientist, claire software engineer, portfolio, portfolio project, full stack, vscode portfolio, vscode website, vscode browser"
       />
-      <meta property="og:title" content="Claire Yurev | Portfolio" />
+      <meta property="og:title" content="Claire | Portfolio" />
       <meta
         property="og:description"
-        content="Software Engineer currently working in the Bay Area, California."
+        content="Software Engineer."
       />
       <meta property="og:image" content="https://i.imgur.com/OvIt9Np.jpg" />
       <meta property="og:url" content="https://claireyurev.com" />
@@ -27,5 +27,5 @@ const CustomHead = ({ title }) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-  title: 'Claire Y. Yurev',
+  title: 'Claire Y.',
 };
