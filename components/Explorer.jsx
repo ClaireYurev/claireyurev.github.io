@@ -30,11 +30,11 @@ const explorerItems = [
     path: 'https://bitbucket.org/claireyurev/',
     icon: '5_bitbucket_icon.svg',
   },
-  {
+  /*{
     name: 'Resume.pdf',
     path: '/Claire_Y._Yurev_-_Resume.pdf',
     icon: '6_pdf_icon.svg',
-  },
+  },*/
   {
     name: 'About.html',
     path: '/about',
