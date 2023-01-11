@@ -6,9 +6,9 @@ const AboutPage = () => {
       <br></br>
       <h3>About Claire</h3>
       <br></br>
-      <p>📚 Curious learner with a passion for experimenting with new ideas and technologies.</p>
-      <p>✔️ Experienced Software Engineer with a track record of working in fintech, healthcare and services industry.</p>
-      <p>☕️ Languages: Java, Python, Dart, C++, TypeScript, JavaScript, C#, Go, PHP, SQL, MATLAB.</p>
+      <p>📚 Creative and enthusiastic learer with a passion for building out new ideas using new technologies.</p>
+      <p>✔️ Experienced Support Engineer and Data Scientist with a track record of working in financial and tech industry.</p>
+      <p>☕️ Languages: Java, Python, Dart, C++, TypeScript, JavaScript, C#, Go, PHP, SQL, MATLAB, R.</p>
       <p>💻 Frameworks & Databases: Flutter, React, NodeJS, Tkinter, SciKit, TensorFlow, NumPy, Django, MySQL, PostgreSQL, NoSQL.</p>
       <p>🔨 Tools: Git, Scrum Agile, REST, JSON, YAML, Ansile, AWS, GCP, Kubernetes, Docker, Jenkins, Jupyter, Shell Scripting.</p>
 
@@ -31,9 +31,9 @@ const AboutPage = () => {
       <h3>Credits</h3>
       <br></br>
       <p> </p>
-      <p>🙏🏼 A huge thank-you to the mastermind, Nitin Ranganath for his original work on the Next.js implementation.</p>
+      <p>🙏🏼 A huge thank-you to my mentor, Nitin Ranganath for his original work on the Next.js implementation.</p>
       <p>💎 Nitin (github.com/itsnitinr) is a brilliant developer and this website would not have been what it is without him!</p>
-      <p>🌿 Massive gratitude to Vivek Patel (github.com/vivek9patel) for the inspiration with his Ubuntu portal.</p>
+      <p>🌿 Massive gratitude to Vivek Patel (github.com/vivek9patel) for the inspiration with his <a href="https://vivek9patel.github.io/">Ubuntu portal</a>.</p>
       <p>🌟 We stand on the shoulders of giants!</p>
       <p>🌎 Deployed with MIT license.</p>
 

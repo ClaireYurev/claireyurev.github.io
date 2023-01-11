@@ -11,13 +11,13 @@
   },
   {
     "id": 2,
-    "name": "Cleanly.so",
+    "name": "Cleanly App (Android)",
     "image": "https://imgur.com/KZCxCzE.jpg",
     "description": "Cleanly is an iOS, Android, and Web app that washes your car at your place: home, work - wherever you are. Cleanly is the DoorDash of mobile car washes.",
     "tags": ["react", "node", "mongodb", "redux", "material-ui"],
     "source_code_gh": "https://github.com/ClaireYurev/cleanly",
     "source_code_bb": "https://bitbucket.org/claireyurev/cleanly",  
-    "demo": "https://cleanly.so"
+    "demo": "https://github.com/ClaireYurev/cleanly/releases/download/v1.0.0-pre-release-Demo/Cleanly_v1.0.0.apk"
   },
   {
     "id": 3,
